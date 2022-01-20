@@ -1,0 +1,15 @@
+{
+  "name": "logic-practice",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "rsjhon90 <rsjhony@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:debug": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
+}
