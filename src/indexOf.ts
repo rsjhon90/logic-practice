@@ -1,4 +1,4 @@
-function indexOf(elem: any, array: any[], init?: number): number {
+function indexOf<T>(elem: T, array: T[], init?: number): number {
   // falha caso init é maior que o array
   if (init && init >= array.length) return -1;
 
@@ -25,4 +25,4 @@ function indexOf(elem: any, array: any[], init?: number): number {
   return -1;
 }
 
-// console.log(indexOf(9, [1, 1, 3, 4, 5, 6, 7, 8, 9, 0], -15));
+console.log(indexOf(9, [1, 1, 3, 4, 5, 6, 7, 8, 9, 0]));
